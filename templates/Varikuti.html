@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <table border="3px">
+            <h1>Access Records</h1>
+            <tr>
+              
+                <th>name</th>
+                <th>Date</th>
+            </tr>
+        {% for i in AccessRecords %}
+            <tr>
+               
+                <td>{{i.name}}</td>
+                <td>{{i.date}}</td>
+            </tr>
+        {% endfor %}
+
+
+    </center>
+    
+</body>
+</html>

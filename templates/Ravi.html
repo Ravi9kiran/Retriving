@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Topic</h1>
+        <table border="3px">
+            <tr>
+                <th>Topic Names</th>
+            </tr>
+        {% for i in Topic %}
+            <tr>
+                <td>{{i.Topic_name}}</td>
+            </tr>
+        {% endfor %}
+        </table>
+    </center>
+</body>
+</html>
